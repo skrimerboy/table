@@ -1,0 +1,77 @@
+@import url(reset.css);
+body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 100%;
+}
+caption{
+max-width: 100%;
+  margin-top: 20px;
+  background-color: #4F4F4F;
+  color: white;
+  padding: 10px;
+  font-size: 26px;
+
+}
+th{
+  background-color: #d3d3d3;
+}
+table{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content:  flex-start;
+  overflow-x: scroll;
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #4F4F4F;
+  font-size: 26px;
+}
+tr{
+  border: 1px solid #4F4F4F;
+  margin: 7px;
+}
+td{
+  margin: 10px;
+  border: 1px solid #4F4F4F;
+  padding:7px;
+}
+ol{
+  width: 100%;
+    list-style: none;
+}
+ol > li{
+    padding-left: 1em;
+    position: relative;
+    margin: 1em;
+}
+ol > li:before{
+    list-style-type:armenian;
+    position: absolute; top: 0; left: 0;
+    color: black;}
+
+h1{
+  margin-top: 20px;
+  margin-left:10px;
+  max-width: 100%;
+  font-size: 20px;
+}
+p{
+  max-width: 100%;
+margin-left:10px;
+}
+.Start{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+  align-content: flex-start;
+  max-width: 100%;
+}
+li{
+  font-size: 16px;
+}
